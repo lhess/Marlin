@@ -717,7 +717,7 @@
   // Define probe X and Y positions for Z1, Z2 [, Z3 [, Z4]]
   // If not defined, probe limits will be used.
   // Override with 'M422 S<index> X<pos> Y<pos>'
-  #define Z_STEPPER_ALIGN_XY { {  25, 110 }, { 210,  110 } }
+  #define Z_STEPPER_ALIGN_XY { {  25, 110 }, { 200,  110 } }
 
   /**
    * Orientation for the automatically-calculated probe positions.
@@ -1596,7 +1596,7 @@
 #define LIN_ADVANCE
 #if ENABLED(LIN_ADVANCE)
   //#define EXTRA_LIN_ADVANCE_K // Enable for second linear advance constants
-  #define LIN_ADVANCE_K 0.50    // Unit: mm compression per 1mm/s extruder speed
+  #define LIN_ADVANCE_K 0.30    // Unit: mm compression per 1mm/s extruder speed
   //#define LA_DEBUG            // If enabled, this will generate debug information output over USB.
   #define EXPERIMENTAL_SCURVE // Enable this option to permit S-Curve Acceleration
 #endif

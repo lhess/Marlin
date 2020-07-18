@@ -460,7 +460,7 @@
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
 // (Use MINTEMP for thermistor short/failure protection.)
-#define HEATER_0_MAXTEMP 265
+#define HEATER_0_MAXTEMP 280
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
@@ -1134,7 +1134,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS (215 + (X_MIN_POS * -1))
 #define Y_MAX_POS (215 + (Y_MIN_POS * -1))
-#define Z_MAX_POS 200
+#define Z_MAX_POS 170
 
 /**
  * Software Endstops
